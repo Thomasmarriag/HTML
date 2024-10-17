@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+input{
+    appearance: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+input::before{
+    content: 'ON';
+    color: green;
+}
+input:checked::before{
+    content: 'OFF';
+    color: red;
+}
