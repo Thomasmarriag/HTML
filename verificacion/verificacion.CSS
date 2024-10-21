@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 .container{
     height: 220px;
     width: 250px;
